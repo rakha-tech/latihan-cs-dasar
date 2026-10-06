@@ -10,7 +10,15 @@ namespace Latihan
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            int x = 42; // bilangan bulat
+            double pi = 3.14; // bilangan desimal
+            char y = 'Z';
+            string hai = "Hello";
+            bool kondisi = true; // true or false
+
+            x = 5-2;
+
+            Console.WriteLine(x);
 
             Console.ReadLine();
         }
